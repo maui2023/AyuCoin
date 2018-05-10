@@ -38,7 +38,7 @@ the AyuCoin client sofware, see https://github.com/mauisabily/AyuCoin/releases
 
 Block Explorer
 --------------
-(http://blocks.ayucoin.club:3003)
+http://blocks.ayucoin.club:3003
 
 License
 -------
