@@ -157,6 +157,10 @@ obj/txdb-leveldb.o: leveldb/libleveldb.a
 # auto-generated dependencies:
 -include obj/*.P
 
+ayucoind: $(OBJS:obj/%=obj/%)
+	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
+	cp ayucoind ayucoin-cli
+
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h
 version.cpp: obj/build.h
