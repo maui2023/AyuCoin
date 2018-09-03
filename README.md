@@ -85,6 +85,7 @@ Now can compile a daemon for Ubuntu 18.04.1 LTS using the following instructions
 	sudo apt-get install build-essential libdb-dev libdb++-dev libboost-all-dev git libssl1.0-dev libboost-all-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
 
 *fix zerocoin protocol
+*fix for last error!
 
 ### Automated Testing
 
