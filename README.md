@@ -86,7 +86,8 @@ Now can compile a daemon for Ubuntu 18.04.1 LTS using the following instructions
 
 *fix zerocoin protocol
 *fix for last error!
-
+*raspiOS use this
+#sudo apt install libssl1.0-dev
 ### Automated Testing
 
 Developers are strongly encouraged to write unit tests for new code, and to
