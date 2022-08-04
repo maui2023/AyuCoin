@@ -82,7 +82,7 @@ Now can compile a daemon for Ubuntu 18.04.1 LTS using the following instructions
 	sudo apt-get update
 	sudo apt-get upgrade
 
-	sudo apt-get install build-essential libdb-dev libdb++-dev libboost-all-dev git libssl1.0-dev libboost-all-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
+	sudo apt-get install build-essential libdb-dev libdb++-dev libboost-all-dev git libssl1.0-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
 
 *fix zerocoin protocol
 *fix for last error!
@@ -102,3 +102,7 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test AyuCoin-qt.pro
     make -f Makefile.test
     ./AyuCoin-qt_test
+
+Create Sub-Link on Ubuntu 20.04 LTS:
+
+    sudo ln -s libboost_system.so.1.67.1 libboost_system.so.1.65.1
